@@ -1702,6 +1702,8 @@ private:
                     for (int j = 0; j < sizhh; j++) {
                         chhend.push_back ((double) (s_datchh[j]) / 1000.);
                     }
+					
+                    delete [] s_datchh;
 
                     params.locallab.localTgaincurve.clear();
                     params.locallab.llcurve.clear();
